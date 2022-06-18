@@ -12,7 +12,7 @@ export default [
   {
     title: 'Sydney Opera House',
     location: 'Australia',
-    googleMapsUrl: 'https://goo.gl/maps/1DGM5WrWnATgkSNB8',
+    googleMapsUrl: 'https://goo.gl/maps/scwAExJn3vKWAMh27',
     startDate: '27 May, 2021',
     endDate: '8 June, 2021',
     description:
@@ -22,7 +22,7 @@ export default [
   {
     title: 'Geirangerfjord',
     location: 'Norway',
-    googleMapsUrl: 'https://goo.gl/maps/1DGM5WrWnATgkSNB8',
+    googleMapsUrl: 'https://goo.gl/maps/unWpknX8NrJgJhnp9',
     startDate: '01 Oct, 2021',
     endDate: '18 Nov, 2021',
     description:
@@ -30,13 +30,13 @@ export default [
     imageUrl: 'https://source.unsplash.com/3PeSjpLVtLg',
   },
   {
-    title: 'Northern Lights',
+    title: 'Blue Lagoon',
     location: 'Iceland',
-    googleMapsUrl: 'https://goo.gl/maps/1DGM5WrWnATgkSNB8',
+    googleMapsUrl: 'https://goo.gl/maps/YZdtyBDJVbkU3ebr5',
     startDate: '14 Jan, 2022',
     endDate: '28 Jan, 2022',
     description:
-      "The auroras only appear near the Earth's magnetic poles. They're usually visible above a latitude of 60 degrees north and below 60 degrees south (the 'southern lights' are called the aurora australis).",
-    imageUrl: 'https://source.unsplash.com/x3WQMj5QkEE',
+      'The Blue Lagoon is a geothermal spa in southwestern Iceland. The spa is located in a lava field near Grindavík and in front of Mount Þorbjörn on Reykjanes Peninsula, in a location favourable for geothermal power, and is supplied by water used in the nearby Svartsengi geothermal power station.',
+    imageUrl: 'https://source.unsplash.com/rH810coWgTI ',
   },
 ];
