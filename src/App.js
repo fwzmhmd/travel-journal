@@ -10,7 +10,11 @@ export default function App() {
   return (
     <div>
       <Navbar />
-      <main>{cards}</main>
+      <main>
+        {cards}
+
+        <h4>* This website is optimized for mobile only *</h4>
+      </main>
     </div>
   );
 }
