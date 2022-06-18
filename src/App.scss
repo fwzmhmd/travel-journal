@@ -1,2 +1,8 @@
 @use './styles/reset';
 @use './styles/typography';
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

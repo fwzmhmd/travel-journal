@@ -1,0 +1,68 @@
+@use './variables';
+@use './typography';
+
+.card {
+  border-bottom: 1px solid variables.$divider-color;
+  margin: 0 40px 18px;
+  padding-bottom: 18px;
+  display: flex;
+  max-width: 550px;
+
+  .location-img {
+    width: 126px;
+    height: 168px;
+    border-radius: 5px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+
+    .location {
+      display: flex;
+      margin-bottom: 7px;
+
+      .location-title {
+        display: flex;
+        align-items: center;
+        margin-right: 12px;
+        @include typography.font-prop(400, 10px, variables.$primary-color);
+        text-transform: uppercase;
+
+        img {
+          width: 7px;
+          margin-right: 4px;
+        }
+      }
+
+      .location-maps {
+        display: flex;
+
+        a {
+          @include typography.font-prop(400, 10px, variables.$accent-color);
+          line-height: 12px;
+          text-decoration: underline;
+          text-underline-offset: 1px;
+        }
+      }
+    }
+
+    .title {
+      @include typography.font-prop(700, 25px, variables.$primary-color);
+      line-height: 30px;
+      margin-bottom: 14px;
+    }
+
+    .date {
+      @include typography.font-prop(700, 10px, variables.$primary-color);
+      margin-bottom: 9px;
+    }
+
+    .desc {
+      @include typography.font-prop(400, 10px, variables.$primary-color);
+      line-height: 150%;
+    }
+  }
+}
