@@ -1,0 +1,16 @@
+@use './typography';
+@use './variables';
+
+header {
+  background-color: variables.$salmon;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 0;
+  margin-bottom: 45px;
+  @include typography.font-prop(500, 14px, variables.$white);
+
+  img {
+    margin-right: 7px;
+  }
+}
